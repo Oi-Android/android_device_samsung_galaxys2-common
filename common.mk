@@ -204,5 +204,3 @@ $(call inherit-product, hardware/samsung/exynos4210.mk)
 
 # Include non-open-source parts
 $(call inherit-product, vendor/samsung/galaxys2-common/common-vendor.mk)
-# Include non-open-source parts from google
-$(call inherit-product, vendor/google/BoardConfigPartial.mk)
